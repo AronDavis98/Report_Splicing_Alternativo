@@ -22,6 +22,8 @@ il criterio utilizzato per identificare l’evento.
 
 NOTA BENE: non sono da prendere in considerazione eventi alternativi di inizio/fine della trascrizione.
 
+AVVERTENZA: è necessario aggiungere il file *.gtf.gz nella cartella Annotazione_GTF.
+
 ## Caratteristiche
 - Analisi di eventi di splicing alternativo: Exon Skipping, 5' Competing, 3' Competing, Intron Retention e Mutually Exclusive Exons.
 - Creazione di report in Jupyter Notebook e un file Excel con dettagli sugli eventi di splicing.
