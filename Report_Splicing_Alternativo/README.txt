@@ -5,22 +5,20 @@ A partire da un file GTF filtrato su un singolo cromosoma, il notebook identific
 I risultati sono esportati in un report strutturato.
 
 ## Descrizione
-TEMA 3
 
-Data l’annotazione GTF dei geni umani su un certo cromosoma (che si ottiene filtrando opportunamente l’annotazione completa Homo_sapiens.GRCh38.113.gtf.gz scaricabile da Ensemble Genome Browser),
-produrre uno script/notebook che, per ogni gene annotato, selezioni un trascritto di riferimento e produca in output un report che riassuma gli eventi di splicing alternativo che gli altri trascritti 
+Data l’annotazione GTF dei geni umani su un certo cromosoma (annotazione completa Homo_sapiens.GRCh38.113.gtf.gz),
+è stato prodotto uno script/notebook che, per ogni gene annotato, seleziona un trascritto di riferimento e produce in output un report che riassume gli eventi di splicing alternativo che gli altri trascritti 
 del gene manifestano rispetto a quello preso come riferimento.
 
-Precisamente, per ogni tipologia di evento, si deve riportare:
+Precisamente, per ogni tipologia di evento, viene riportato:
 
 1) il numero di volte in cui si presenta globalmente nel cromosoma
 2) la lista dei geni in cui si presenta
 3) per ogni gene della lista del punto (2), la lista dei trascritti in cui l’evento si presenta
 
-Le tipologie di evento da considerare sono exon skipping, 5’ competing, 3’ competing, intron retention e mutually exclusive exons. Si richiede di descrivere, per ogni tipologia, 
-il criterio utilizzato per identificare l’evento.
+Le tipologie di evento che vengono considerate sono exon skipping, 5’ competing, 3’ competing, intron retention e mutually exclusive exons.
 
-NOTA BENE: non sono da prendere in considerazione eventi alternativi di inizio/fine della trascrizione.
+Non si prendono in considerazione eventi alternativi di inizio/fine della trascrizione.
 
 AVVERTENZA: è necessario aggiungere il file *.gtf.gz nella cartella Annotazione_GTF.
 
